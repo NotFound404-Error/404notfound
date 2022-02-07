@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+     font-size: 100%;
+     background-color: white;
+ }
+
+ .cabecalho {
+     background-color: #1F56C9;
+     color: white;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: space-around;
+     padding: 24px;
+    position: sticky;
+    top: 0;
+ }
+
+ .navegador {
+     display: flex;
+     gap: 30px;
+     font-family: 'Montserrat', sans-serif;
+     font-weight: 300;
+ }
+
+ .conteudoprincipal {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    padding-top: 70px;
+    
+
+}
+
+.conteudoescrito {
+    padding-bottom: 20px;
+    margin-left: 30px;
+}
+
+.titulo {
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 64px;
+    padding-bottom: 15px;
+    max-width: 530px;
+    color: #1F56C9;
+    
+}
+
+.subtitulo {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    max-width: 700px;
+    padding-bottom: 30px;
+}
+
+.botao {
+
+    background-color: black;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 5px;
+    height: 40px;
+    width: 180px;
+    border: none;
+    cursor: pointer;
+
+}
+
+.botao:hover{
+
+    background-color: #1F56C9;
+
+    Color: #fff;
+
+    width: 180px;
+
+    height: 40px;
+
+    border-radius: 5;
+
+    transition-duration: 0.2s;}
+
+.conteudodois {
+    max-width: 700px;
+    font-family: 'Montserrat', sans-serif ;
+    font-size: 18px;
+    display: block ;
+    align-items: right;
+    justify-content: right;
+    flex-direction: row;
+    padding-bottom: 50px;
+    padding-left: 40px;
+    font-weight: 500;
+
+}
+
+
+
+
+
+.rodape {background-color: #030304;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nomelogo { 
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+
+.imagem {
+    max-width: 600px;
+}
+
+.titulodois {
+    padding-bottom: 23px;
+}
+
+.somos {text-decoration: none;
+color: white;}
+
+.veja {
+    font-family: 'Montserrat', sans-serif;
+    color: #1F56C9;
+    display: flex;
+    flex-direction: row;
+    align-items: right;
+    justify-content: right;
+    font-weight: 400;
+    padding-bottom: 20px;
+    margin-right: 100px;
+}
+  
+.paragrafo {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif ;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: right;
+    justify-content: right;
+    font-weight: 400;
+    padding-bottom: 20px;
+font-weight: 200;
+max-width: 500px;
+text-align: right;
+margin-right: 100px;}
+
+.team {
+    max-width: 500px;
+    margin-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 25px;
+}
+
+.trabalhos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.redes {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif ;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.trabalhos {
+    animation: fadeIn 2s;
+    -webkit-animation: fadeIn 2s;
+    -moz-animation: fadeIn 2s;
+    -o-animation: fadeIn 2s;
+    -ms-animation: fadeIn 2s;
+  }
+  @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+
+  .titulo {
+    animation: fadeIn 2s;
+    -webkit-animation: fadeIn 2s;
+    -moz-animation: fadeIn 2s;
+    -o-animation: fadeIn 2s;
+    -ms-animation: fadeIn 2s;
+  }
+  @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
